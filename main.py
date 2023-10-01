@@ -59,9 +59,8 @@ Layout_ans1.addLayout(Layout_ans2)
 Layout_ans1.addLayout(Layout_ans3)
 RadioGroupBox.setLayout(Layout_ans1)
 
-main_line=QVBoxLayout()
-main_line.addWidget(RadioGroupBox)
 
-main_win.setLayout(main_line)
+
+main_win.setLayout(Layout_card)
 main_win.show()
 app.exec_()
