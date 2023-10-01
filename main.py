@@ -60,7 +60,6 @@ Layout_ans1.addLayout(Layout_ans3)
 RadioGroupBox.setLayout(Layout_ans1)
 
 
-
 main_win.setLayout(Layout_card)
 main_win.show()
 app.exec_()
